@@ -12,13 +12,13 @@ blocks:
       - label: Get Started
         type: button
         icon: true
-        link: /posts
+        link: ./posts
       - label: Read Blog
         type: link
         icon: false
-        link: /posts
+        link: ./posts
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
+      src: ./uploads/unsplash-75EFpyXu3Wg.jpg
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
