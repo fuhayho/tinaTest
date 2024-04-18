@@ -21,8 +21,12 @@ module.exports = {
     ];
   },
 };
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/tinaTest",
   output: "export",
+  reactStrictMode: true,
 };
+
 module.exports = nextConfig;
