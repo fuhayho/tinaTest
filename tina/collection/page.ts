@@ -11,7 +11,7 @@ const Page: Collection = {
   ui: {
     router: ({ document }) => {
       if (document._sys.filename === "home") {
-        return `/`;
+        return `./home`;
       }
       if (document._sys.filename === "about") {
         return `./about`;
