@@ -7,14 +7,14 @@ import { featureBlockSchema } from "../../components/blocks/features";
 const Page: Collection = {
   label: "Pages",
   name: "page",
-  path: "content/pages",
+  path: "./content/pages",
   ui: {
     router: ({ document }) => {
       if (document._sys.filename === "home") {
         return `/`;
       }
       if (document._sys.filename === "about") {
-        return `/about`;
+        return `./about`;
       }
       return undefined;
     },
